@@ -87,8 +87,6 @@ header{
   width: 95%;
 }
 
-}
-
   #menu {
     float: right;
   }
@@ -108,11 +106,6 @@ header{
       margin-left: -100px;
       float: left;
   }
-
-
-
-
-}
 
   /*HERO*/
 
@@ -217,13 +210,16 @@ height: 80px;
 
   .footerContent a {
     display: inline-flex;
-  
+  }
+
   .email:hover {
     color: #4542AE;
   }
+
   .linkedin:hover {
     color: #4542AE;
   }
+
   .insta:hover {
     color: #4542AE;
   }
@@ -231,3 +227,5 @@ height: 80px;
   @media screen and (min-width: 601px) {
     div.hey {
       font-size: 80px;
+    }
+  }
