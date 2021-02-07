@@ -1,0 +1,233 @@
+
+
+body {
+    margin: 5px 10px 0px 10px;
+    padding: 0;
+  }
+
+/*NAVIGATION*/
+
+header{
+
+  
+}
+  .logo {
+    float: left;
+    width:135px;
+    height: 135px;
+  }
+
+
+  #navigation-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    
+  }
+
+  .navigationBar {
+    height: 130px;
+    width: 100%;
+    text-align:center;
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+  }
+
+  .navigationBar img{
+  float:left;
+  padding: -2px;
+  }
+
+  .navigationBar ul {
+    padding: 0px;
+    margin-left: 30%;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+
+  .navigationBar li {
+    list-style-type: none;
+    padding: 2px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .navigationBar li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 10px;
+    font-family: basic-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+  .navigationBar li a:hover{
+    color: #4542AE;
+  }
+.navigationBar li a::after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #4542AE;
+  position: absolute;
+  bottom: 4;
+
+  transition: all ease-in-out 250ms;
+}
+
+.navigationBar li a:hover::after {
+  width: 95%;
+}
+
+}
+
+  #menu {
+    float: right;
+  }
+
+  /*TYPOGRAPHY*/
+
+
+  h1 {
+    font-family: basic-sans, sans-serif;    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.3em;
+    color: #4542AE;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: -100px;
+      float: left;
+  }
+
+
+
+
+}
+
+  /*HERO*/
+
+  .hey{
+    display: inline-block;
+  }
+
+  .content {
+      text-align: left;
+      width: 56%;
+      padding-top: 20px;
+      float: right;
+      vertical-align: top;
+      line-height: 35px;
+      font-family: basic-sans, sans-serif; 
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 60px;
+  }
+
+  .heroPage{
+      height: 600px; 
+      padding: 25px;
+  }
+ 
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 50px;
+  display: inline-block;
+  position: static;
+}
+
+aside {
+  width: 100%;
+  padding-right: 5px;
+  margin-right: 5px;
+  
+}
+
+
+/*BUTTON*/
+
+
+.button {
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline;  
+  width: 220px;
+  height: 57px;
+  left: 656px;
+  top: 775px;
+  box-sizing: border-box;
+
+  filter: drop-shadow(4px 5px 0px #000000);
+}
+
+.button-primary {
+  background-color:white;
+  filter: drop-shadow(4px 5px 0px #000000);
+  color: black;
+  border-color: black;
+  border: 2px solid black;
+  font-size: 18pt;
+}
+
+
+.button-primary:hover {
+  background-color: white;
+  filter: drop-shadow(4px 5px 0px #4542AE);
+  Color: #000000;
+  border-color: black;
+  border: 2px solid #4542AE;
+  
+}
+
+button:focus{
+  background-color:#635fd1;}
+
+  /*FOOTER*/
+
+
+  footer {
+      color: black;
+      width: 100%;
+      margin-top:100px;
+      font-family: basic-sans, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+
+      display: flex;
+justify-content: center;
+align-items: center;
+height: 80px;
+}
+
+
+
+  .footerContent a {
+    display: inline-flex;
+  
+  .email:hover {
+    color: #4542AE;
+  }
+  .linkedin:hover {
+    color: #4542AE;
+  }
+  .insta:hover {
+    color: #4542AE;
+  }
+
+  @media screen and (min-width: 601px) {
+    div.hey {
+      font-size: 80px;
